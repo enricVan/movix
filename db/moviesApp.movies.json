@@ -1,0 +1,360 @@
+[{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c10"
+  },
+  "name": "The Shawshank Redemption",
+  "image": "/backend\\uploads\\image-1720419322074.jpg",
+  "year": 1994,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c20"
+  },
+  "detail": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+  "cast": [
+    "Tim Robbins",
+    "Morgan Freeman",
+    "Bob Gunton"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "updatedAt": {
+    "$date": "2024-07-08T10:27:48.357Z"
+  },
+  "__v": 4,
+  "createdAt": {
+    "$date": "2024-07-07T09:46:55.103Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20231019/SRNpBmu7/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c11"
+  },
+  "name": "The Godfather",
+  "image": "/backend\\uploads\\image-1720419346347.png",
+  "year": 1972,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c21"
+  },
+  "detail": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+  "cast": [
+    "Marlon Brando",
+    "Al Pacino",
+    "James Caan"
+  ],
+  "numReviews": 1,
+  "reviews": [
+    {
+      "name": "test",
+      "rating": 0,
+      "comment": "abcdbqbqw",
+      "user": {
+        "$oid": "668a60f7f085b0eab7a0fb4a"
+      },
+      "_id": {
+        "$oid": "668aabbce87c82f5321256ef"
+      },
+      "createdAt": {
+        "$date": "2024-07-08T10:32:13.794Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-08T10:32:13.794Z"
+      }
+    }
+  ],
+  "updatedAt": {
+    "$date": "2024-07-08T10:32:13.794Z"
+  },
+  "__v": 5,
+  "createdAt": {
+    "$date": "2024-07-07T09:57:14.313Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20231017/sO7PyfCM/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c12"
+  },
+  "name": "The Dark Knight",
+  "image": "/backend\\uploads\\image-1720419376891.jpg",
+  "year": 2008,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c22"
+  },
+  "detail": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
+  "cast": [
+    "Christian Bale",
+    "Heath Ledger",
+    "Aaron Eckhart"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "updatedAt": {
+    "$date": "2024-07-08T10:34:14.567Z"
+  },
+  "__v": 2,
+  "createdAt": {
+    "$date": "2024-07-07T15:25:46.707Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20240120/Cy7c7Mg8/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c13"
+  },
+  "name": "Inception",
+  "image": "/backend\\uploads\\image-1720419434708.jpg",
+  "year": 2010,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c23"
+  },
+  "detail": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea in the mind of a CEO.",
+  "cast": [
+    "Leonardo DiCaprio",
+    "Ellen Page",
+    "Joseph Gordon-Levitt"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "updatedAt": {
+    "$date": "2024-07-08T10:34:53.206Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s1.phim1280.tv/20231020/DaXgQxsU/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c14"
+  },
+  "name": "Forrest Gump",
+  "image": "/backend\\uploads\\image-1720419557655.webp",
+  "year": 1994,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c24"
+  },
+  "detail": "The story of a forgiving man who witnesses and influences the major historical events in the latter half of the 20th century in the United States.",
+  "cast": [
+    "Tom Hanks",
+    "Robin Wright",
+    "Gary Sinise"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "updatedAt": {
+    "$date": "2024-07-08T10:36:18.933Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20230923/MxarzCw0/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c15"
+  },
+  "name": "The Lord of the Rings: The Fellowship of the Ring",
+  "image": "/backend\\uploads\\image-1720419933073.png",
+  "year": 2001,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c23"
+  },
+  "detail": "A meek Hobbit and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+  "cast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Viggo Mortensen"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "updatedAt": {
+    "$date": "2024-07-08T10:37:25.169Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20240108/NdHtRCXQ/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c16"
+  },
+  "name": "The Silence of the Lambs",
+  "image": "/backend\\uploads\\image-1720420032661.jpg",
+  "year": 1991,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c21"
+  },
+  "detail": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+  "cast": [
+    "Jodie Foster",
+    "Anthony Hopkins",
+    "Scott Glenn"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "updatedAt": {
+    "$date": "2024-07-08T10:37:58.563Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s1.phim1280.tv/20231201/gp2Qvj7D/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c17"
+  },
+  "name": "The Shining",
+  "image": "/backend\\uploads\\image-1720420110842.jpg",
+  "year": 1980,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c20"
+  },
+  "detail": "A family heads to an isolated hotel for the winter where an evil and spiritual presence influences the father into violence, while his psychic son sees horrific forebodings from the past and of the future.",
+  "cast": [
+    "Jack Nicholson",
+    "Shelley Duvall",
+    "Danny Lloyd"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "updatedAt": {
+    "$date": "2024-07-08T10:38:48.134Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20240310/OOhc4g0I/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c18"
+  },
+  "name": "Pulp Fiction",
+  "image": "/backend\\uploads\\image-1720420128131.jpg",
+  "year": 1994,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c21"
+  },
+  "detail": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+  "cast": [
+    "John Travolta",
+    "Samuel L. Jackson",
+    "Uma Thurman"
+  ],
+  "numReviews": 1,
+  "reviews": [
+    {
+      "name": "user1",
+      "rating": 0,
+      "comment": "bqdwuiuwqoiud",
+      "user": {
+        "$oid": "668aa6dae87c82f532123056"
+      },
+      "_id": {
+        "$oid": "668aab80e87c82f532124dd1"
+      },
+      "createdAt": {
+        "$date": "2024-07-08T10:39:20.453Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-08T10:39:20.453Z"
+      }
+    }
+  ],
+  "updatedAt": {
+    "$date": "2024-07-08T10:39:20.453Z"
+  },
+  "__v": 7,
+  "createdAt": {
+    "$date": "2024-07-07T10:33:09.925Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240618/VbXKq0OU/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c19"
+  },
+  "name": "The Matrix",
+  "image": "/backend\\uploads\\image-1720420139451.jpg",
+  "year": 1999,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c23"
+  },
+  "detail": "A computer programmer is recruited by a group of rebels to help overthrow a tyrannical artificial intelligence that controls humanity.",
+  "cast": [
+    "Keanu Reeves",
+    "Laurence Fishburne",
+    "Carrie-Anne Moss"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "updatedAt": {
+    "$date": "2024-07-08T10:39:58.159Z"
+  },
+  "api": "https://player.phimapi.com/player/?url=https://s1.phim1280.tv/20231017/0aMX0qji/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "668b89fc8f014dc229504b42"
+  },
+  "name": "Back to the Future",
+  "image": "/backend\\uploads\\image-1720420860710.jpg",
+  "year": 1985,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c23"
+  },
+  "detail": "A young man is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his friend, Dr. Emmett Brown, and must make sure his high-school-age parents unite in order to save his own existence.",
+  "cast": [
+    "Michael J. Fox",
+    "Christopher Lloyd"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-07-08T06:41:00.745Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-08T10:41:08.047Z"
+  },
+  "__v": 0,
+  "api": "https://player.phimapi.com/player/?url=https://s1.phim1280.tv/20231021/jrd1dZrI/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "668b8a6e8f014dc229506e8a"
+  },
+  "name": "Schindler's List",
+  "image": "/backend\\uploads\\image-1720420974444.jpg",
+  "year": 1993,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c23"
+  },
+  "detail": "The true story of how businessman Oskar Schindler saved the lives of more than a thousand Polish Jews during the Holocaust.\n",
+  "cast": [
+    "Liam Neeson",
+    "Ralph Fiennes"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-07-08T06:42:54.461Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-08T10:42:18.635Z"
+  },
+  "__v": 0,
+  "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20231021/Dx7qNkHh/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "668b8beb8f014dc22950901c"
+  },
+  "name": "Groundhog Day",
+  "image": "/backend\\uploads\\image-1720421355842.jpg",
+  "year": 1993,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c24"
+  },
+  "detail": "A weatherman finds himself inexplicably living the same day over and over again.",
+  "cast": [
+    "Bill Murray",
+    "Andie MacDowell"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-07-08T06:49:15.856Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-08T10:43:23.942Z"
+  },
+  "__v": 4,
+  "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20231015/1CNA69Vy/index.m3u8"
+}]

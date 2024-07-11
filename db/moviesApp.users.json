@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c01"
+  },
+  "username": "user1",
+  "email": "user1@example.com",
+  "password": "password1",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c02"
+  },
+  "username": "user2",
+  "email": "user2@example.com",
+  "password": "password2",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c03"
+  },
+  "username": "user3",
+  "email": "user3@example.com",
+  "password": "password3",
+  "isAdmin": true
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c04"
+  },
+  "username": "user4",
+  "email": "user4@example.com",
+  "password": "password4",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "63e4f71a46f9b16c0c5b9c05"
+  },
+  "username": "user5",
+  "email": "user5@example.com",
+  "password": "password5",
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "668a60f7f085b0eab7a0fb4a"
+  },
+  "username": "test",
+  "email": "test@gmail.com",
+  "password": "$2a$10$kQ4ILIlGpT0fyznUKs94E.n6k9DzTlxJ8IaKXVlBRvSrRze12JhAy",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2024-07-07T09:33:43.238Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-07T09:33:43.238Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668aa6dae87c82f532123056"
+  },
+  "username": "user1",
+  "email": "user1@gmail.com",
+  "password": "$2a$10$X5AeIAfROULKI6FjBDFMFecqgDn3PJpDHpSLTcyNfqSjSyS9wrCmK",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-07-07T14:31:54.458Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-07T14:31:54.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e31f4fc86a363feb9a10f"
+  },
+  "username": "test1",
+  "email": "test1@gmail.com",
+  "password": "$2a$10$ZE6x00iFSW40WvaL12jV9OgzM5hafJZN8YFHLSXGNYXeR10R1L2L2",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-07-10T07:02:12.785Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-10T07:02:12.785Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e37dd8a2483b989f86c5e"
+  },
+  "username": "test2",
+  "email": "test2@gmail.com",
+  "password": "$2a$10$MY.fKNnOOIEHybS7jqwxHuHH3KBEpc1VFhhXbmZDDL.Pk17RO1ppi",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-07-10T07:27:25.595Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-10T07:27:25.595Z"
+  },
+  "__v": 0
+}]
