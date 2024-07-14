@@ -182,12 +182,34 @@
     "Anthony Hopkins",
     "Scott Glenn"
   ],
-  "numReviews": 0,
-  "reviews": [],
+  "numReviews": 1,
+  "reviews": [
+    {
+      "name": "test",
+      "rating": 0,
+      "comment": "Excellent",
+      "user": {
+        "$oid": "668a60f7f085b0eab7a0fb4a"
+      },
+      "_id": {
+        "$oid": "669427468f3a8a34341f899d"
+      },
+      "createdAt": {
+        "$date": "2024-07-14T19:30:14.266Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-14T19:30:14.266Z"
+      }
+    }
+  ],
   "updatedAt": {
-    "$date": "2024-07-08T10:37:58.563Z"
+    "$date": "2024-07-14T19:30:14.266Z"
   },
-  "api": "https://player.phimapi.com/player/?url=https://s1.phim1280.tv/20231201/gp2Qvj7D/index.m3u8"
+  "api": "https://player.phimapi.com/player/?url=https://s1.phim1280.tv/20231201/gp2Qvj7D/index.m3u8",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2024-07-14T19:30:14.264Z"
+  }
 },
 {
   "_id": {
@@ -357,4 +379,452 @@
   },
   "__v": 4,
   "api": "https://player.phimapi.com/player/?url=https://s2.phim1280.tv/20231015/1CNA69Vy/index.m3u8"
+},
+{
+  "_id": {
+    "$oid": "669411c88f3a8a34341ed73d"
+  },
+  "name": "Trolls Band Together",
+  "image": "/backend\\uploads\\image-1720979912329.jpg",
+  "year": 2023,
+  "genre": {
+    "$oid": "669410ad8f3a8a34341ed739"
+  },
+  "detail": "When Branch's brother Floyd is kidnapped for his musical talent by a pair of evil bandleaders, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop culture obscurity.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240624/glaZvbZs/index.m3u8",
+  "cast": [
+    "Anna Kendrick",
+    "Justin Timberlake",
+    "Camila Cabello",
+    "Eric André",
+    "Amy Schumer",
+    "Andrew Rannells",
+    "Daveed Diggs",
+    "Troye Sivan",
+    "Kid Cudi",
+    "Zosia Mamet",
+    "Zooey Deschanel",
+    "Kunal Nayyar",
+    "Kenan Thompson",
+    "Christopher Mintz-Plasse",
+    "Ron Funches"
+  ],
+  "numReviews": 1,
+  "reviews": [
+    {
+      "name": "test",
+      "rating": 0,
+      "comment": "excellent\n",
+      "user": {
+        "$oid": "668a60f7f085b0eab7a0fb4a"
+      },
+      "_id": {
+        "$oid": "669412948f3a8a34341ef76f"
+      },
+      "createdAt": {
+        "$date": "2024-07-14T18:01:56.633Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-14T18:01:56.633Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-07-14T17:58:32.345Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T18:01:56.633Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "669420368f3a8a34341ef78e"
+  },
+  "name": "Finnick",
+  "image": "/backend\\uploads\\image-1720983606349.jpg",
+  "year": 2022,
+  "genre": {
+    "$oid": "669410ad8f3a8a34341ed739"
+  },
+  "detail": "Finnick is a man who seems to have no interest in making money from his house. Everything changes when a new family comes to his house and Finnick’s tricks are completely ineffective. He meets Christine and inexplicable events begin to occur in the city. Finnick and Christine will have to cooperate and work together to solve the mystery of the events and save the city. At the end of that journey, will little Christine and the elf Finnick bring peace to the village and will Finnick’s ‘other mystery’ be discovered?",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240624/zE2AK60W/index.m3u8",
+  "cast": [
+    "Danya Milokhin",
+    "Ida Galich",
+    "Aleksandr Gudkov",
+    "Артур Бабич",
+    "Boris Dergachev",
+    "Mikhail Khrustalev",
+    "Andrey Levin",
+    "Ivan Chaban",
+    "Mikhail Chernyak",
+    "Maxim Sergeev",
+    "Svetlana Kuznetsova",
+    "Boris Khasanov",
+    "Vladimir Maslakov"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-07-14T19:00:06.362Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:00:06.362Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669420cf8f3a8a34341f08dd"
+  },
+  "name": "The Seven Deadly Sins: Grudge of Edinburgh Part 2",
+  "image": "/backend\\uploads\\image-1720983759095.jpg",
+  "year": 2023,
+  "genre": {
+    "$oid": "669410ad8f3a8a34341ed739"
+  },
+  "detail": "Reunited with Lancelot for the first time since their tragic accident, Tristan must learn to conquer his inner demons to save his mother's life.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240624/2dA3DhBG/index.m3u8",
+  "cast": [
+    "Ayumu Murase",
+    "Koki Uchiyama",
+    "Yuki Kaji",
+    "Sora Amamiya",
+    "Tatsuhisa Suzuki",
+    "Aoi Yuki",
+    "Jun Fukuyama",
+    "Yuuhei Takagi",
+    "Yuuya Uchida",
+    "Sachi Kokuryu",
+    "Marina Inoue",
+    "Yohei Azakami",
+    "Kazuyuki Okitsu"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-07-14T19:02:39.112Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:02:39.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6694216d8f3a8a34341f0e94"
+  },
+  "name": "Cats in the Museum",
+  "image": "/backend\\uploads\\image-1720983917361.jpg",
+  "year": 2023,
+  "genre": {
+    "$oid": "669410ad8f3a8a34341ed739"
+  },
+  "detail": "Cartoon about the famous four-legged inhabitants of the St. Petersburg Winter Palace - museum cats protecting the territory of the State Hermitage from rats.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240624/NZ4HYaop/index.m3u8",
+  "cast": [
+    "Jordan Worsley",
+    "Stephen Peter Krisel",
+    "Maria Smakhtina",
+    "Michael Kleeman",
+    "Nikki Aaron",
+    "Anton Eldarov",
+    "Polina Gagarina",
+    "Aleksandr Gavrilin",
+    "Irina Kireeva",
+    "Roman Kurtsyn",
+    "Pavel Priluchnyy",
+    "Diomid Vinogradov"
+  ],
+  "numReviews": 1,
+  "reviews": [
+    {
+      "name": "test",
+      "rating": 0,
+      "comment": "Hay qua'!",
+      "user": {
+        "$oid": "668a60f7f085b0eab7a0fb4a"
+      },
+      "_id": {
+        "$oid": "6694219b8f3a8a34341f1342"
+      },
+      "createdAt": {
+        "$date": "2024-07-14T19:06:03.241Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-14T19:06:03.241Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-07-14T19:05:17.376Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:06:03.241Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6694246c8f3a8a34341f13b5"
+  },
+  "name": "Totto-chan: The Little Girl at the Window",
+  "image": "/backend\\uploads\\image-1720984684488.jpg",
+  "year": 2023,
+  "genre": {
+    "$oid": "669410ad8f3a8a34341ed739"
+  },
+  "detail": "Sau khi không phù hợp với trường tiểu học ban đầu, Totto Chan đi học tại Tomoe Gakuen. Tại đây, cô gặp những học sinh đặc biệt và học được những điều mới mẻ, ngay cả khi Nhật Bản rơi vào chiến tranh.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240627/3WMO0OL6/index.m3u8",
+  "cast": [
+    "Liliana Ohno",
+    "Koji Yakusho",
+    "Shun Oguri",
+    "Anne Watanabe",
+    "Karen Takizawa"
+  ],
+  "numReviews": 1,
+  "reviews": [
+    {
+      "name": "test",
+      "rating": 0,
+      "comment": "Good experience",
+      "user": {
+        "$oid": "668a60f7f085b0eab7a0fb4a"
+      },
+      "_id": {
+        "$oid": "6694248e8f3a8a34341f22d8"
+      },
+      "createdAt": {
+        "$date": "2024-07-14T19:18:38.705Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-14T19:18:38.705Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-07-14T19:18:04.502Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:18:38.705Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6694252d8f3a8a34341f22df"
+  },
+  "name": "The Roundup Punishment",
+  "image": "/backend\\uploads\\image-1720984877873.jpg",
+  "year": 2024,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c22"
+  },
+  "detail": "\"Monster Cop\" Ma Seok-do điều tra một doanh nghiệp cờ bạc trực tuyến bất hợp pháp do cựu STS Baek và CEO thiên tài CNTT Chang đứng đầu. Ma đề xuất một liên minh bất ngờ với Jang và bắt đầu truy lùng tội phạm.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240711/09IrApPK/index.m3u8",
+  "cast": [
+    "마동석",
+    "김무열",
+    "박지환",
+    "이동휘",
+    "이주빈",
+    "이범수",
+    "김민재",
+    "이지훈",
+    "김도건",
+    "김신비",
+    "현봉식",
+    "김지훈",
+    "김영웅",
+    "Ryu Ji-hoon",
+    "백승환",
+    "배재원",
+    "안성봉",
+    "김호준",
+    "정인기",
+    "권일용",
+    "박보경",
+    "김수진",
+    "배해선",
+    "Jo Jin-kyul",
+    "Kang Jun-seok",
+    "Min Hyo-kyung",
+    "조현식",
+    "Jeong Ji-young",
+    "Kang Shin-chul",
+    "Jang Tae-min",
+    "Kim Mo-beom",
+    "최현도",
+    "김선문",
+    "이상진"
+  ],
+  "numReviews": 1,
+  "reviews": [
+    {
+      "name": "test",
+      "rating": 0,
+      "comment": "oke",
+      "user": {
+        "$oid": "668a60f7f085b0eab7a0fb4a"
+      },
+      "_id": {
+        "$oid": "669425658f3a8a34341f556d"
+      },
+      "createdAt": {
+        "$date": "2024-07-14T19:22:14.002Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-14T19:22:14.002Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-07-14T19:21:17.890Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:22:14.003Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "669425db8f3a8a34341f5572"
+  },
+  "name": "Kingdom Of The Planet Of The Apes",
+  "image": "/backend\\uploads\\image-1720985051570.jpg",
+  "year": 2024,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c23"
+  },
+  "detail": "Phim lấy bối cảnh nhiều năm sau triều đại của Proximus Ceasar trong Đại Chiến Hành Tinh Khỉ (2017). Khỉ trở thành giống loài thống trị thế giới, còn con người phải khép mình trong bóng tối. Triều đại độc tài mới được thiết lập. Noa – một chú khỉ trẻ đặt ra những câu hỏi về quá khứ của hành tinh khỉ và dấn thân vào hành trình chống lại đế chế mới.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240710/3s5ZvvWW/index.m3u8",
+  "cast": [
+    "Owen Teague",
+    "Freya Allan",
+    "Kevin Durand",
+    "Peter Macon",
+    "William H. Macy",
+    "Eka Darville",
+    "Travis Jeffery",
+    "Neil Sandilands",
+    "Sara Wiseman",
+    "Ras-Samuel Welda'abzgi"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-07-14T19:24:11.585Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:24:11.585Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669426618f3a8a34341f7ff3"
+  },
+  "name": "Fancy Dance",
+  "image": "/backend\\uploads\\image-1720985185828.jpg",
+  "year": 2024,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c20"
+  },
+  "detail": "Sau khi chị gái mất tích, Jax và cháu gái Roki phải nương tựa vào nhau. Với khát khao bảo toàn những gì còn lại của gia đình, Jax và Roki kháng luật và bước chân vào hành trình đến hội nhảy Grand Nation Powwow ở thành phố Oklahoma.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240630/eVoOo2ig/index.m3u8",
+  "cast": [
+    "Lily Gladstone",
+    "Isabel Deroy-Olson",
+    "Ryan Begay",
+    "Shea Whigham"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-07-14T19:26:25.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:26:25.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669426d28f3a8a34341f8404"
+  },
+  "name": "The Killer",
+  "image": "/backend\\uploads\\image-1720985298811.jpg",
+  "year": 2023,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c21"
+  },
+  "detail": "Sau một vụ suýt xảy ra định mệnh, một sát thủ chiến đấu với chủ và chính mình trong một cuộc truy lùng quốc tế mà anh ta khẳng định không phải chuyện cá nhân.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240624/MLBAAUTQ/index.m3u8",
+  "cast": [
+    "Michael Fassbender",
+    "Arliss Howard",
+    "Charles Parnell",
+    "Gabriel Polanco",
+    "Kerry O'Malley",
+    "Emiliano Pernia"
+  ],
+  "numReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-07-14T19:28:18.827Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:28:18.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669427708f3a8a34341f98fc"
+  },
+  "name": "Saw X",
+  "image": "/backend\\uploads\\image-1720985456799.jpg",
+  "year": 2023,
+  "genre": {
+    "$oid": "63e4f71a46f9b16c0c5b9c20"
+  },
+  "detail": "Giữa các sự kiện của \"Saw\" và \"Saw II\", John Kramer ốm yếu và tuyệt vọng tới Mexico để thực hiện một thủ tục y tế mang tính thử nghiệm và đầy rủi ro với hy vọng có được phương pháp chữa trị thần kỳ cho căn bệnh ung thư của mình, chỉ để phát hiện ra toàn bộ hoạt động này là một trò lừa đảo để lừa gạt. dễ bị tổn thương nhất. Được trang bị với một mục đích mới, kẻ giết người hàng loạt khét tiếng quay trở lại công việc của mình, lật ngược tình thế với những kẻ lừa đảo theo cách nội tạng đặc trưng của hắn thông qua những cái bẫy quỷ quyệt, loạn trí và khéo léo.",
+  "api": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240624/7U9LfX6u/index.m3u8",
+  "cast": [
+    "Tobin Bell",
+    "Shawnee Smith",
+    "Synnøve Macody Lund",
+    "Renata Vaca",
+    "Paulette Hernández",
+    "Octavio Hinojosa Martínez"
+  ],
+  "numReviews": 1,
+  "reviews": [
+    {
+      "name": "test",
+      "rating": 0,
+      "comment": "Hay quyet voi",
+      "user": {
+        "$oid": "668a60f7f085b0eab7a0fb4a"
+      },
+      "_id": {
+        "$oid": "669427848f3a8a34341fa457"
+      },
+      "createdAt": {
+        "$date": "2024-07-14T19:31:16.626Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-14T19:31:16.626Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-07-14T19:30:56.811Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-14T19:31:16.627Z"
+  },
+  "__v": 1
 }]

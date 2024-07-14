@@ -34,7 +34,7 @@ const Main = () => {
             <SecondaryCard
               pill="Comments"
               content={sumOfCommentsLength}
-              info="742.8 more then usual"
+              info="742 more then usual"
               gradient="from-[#CCC514] to-[#CDCB8E]"
             />
             <SecondaryCard

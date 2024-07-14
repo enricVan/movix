@@ -26,7 +26,7 @@ const AllMovies = () => {
 
   const { moviesFilter, filteredMovies } = useSelector((state) => state.movies);
 
-  const movieYears = data?.map((movie) => movie.year);
+  const movieYears = data?.map((movie) => movie.year).sort((a, b) => a - b);
   const uniqueYears = Array.from(new Set(movieYears));
 
   useEffect(() => {
@@ -50,19 +50,35 @@ const AllMovies = () => {
   };
 
   const handleGenreClick = (genreId) => {
-    const filterByGenre = data.filter((movie) => movie.genre === genreId || genreId == '');
-    dispatch(setMoviesFilter({...moviesFilter, selectedGenre: genreId? genreId: ''}));
+    const filterByGenre = data.filter(
+      (movie) => movie.genre === genreId || genreId == ""
+    );
+    dispatch(
+      setMoviesFilter({
+        ...moviesFilter,
+        selectedGenre: genreId ? genreId : ""
+      })
+    );
     dispatch(setFilteredMovies(filterByGenre));
   };
 
   const handleYearChange = (year) => {
-    const filterByYear = data.filter((movie) => movie.year === +year|| year == '');
-    dispatch(setMoviesFilter({...moviesFilter, selectedYear: year? +year: ''}));
+    const filterByYear = data.filter(
+      (movie) => movie.year === +year || year == ""
+    );
+    dispatch(
+      setMoviesFilter({ ...moviesFilter, selectedYear: year ? +year : "" })
+    );
     dispatch(setFilteredMovies(filterByYear));
   };
 
   const handleSortChange = (sortOption) => {
-    dispatch(setMoviesFilter({...moviesFilter, selectedSort: sortOption? sortOption: []}));
+    dispatch(
+      setMoviesFilter({
+        ...moviesFilter,
+        selectedSort: sortOption ? sortOption : []
+      })
+    );
     switch (sortOption) {
       case "new":
         dispatch(setFilteredMovies(newMovies));

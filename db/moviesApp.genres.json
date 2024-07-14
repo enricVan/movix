@@ -27,4 +27,11 @@
     "$oid": "63e4f71a46f9b16c0c5b9c24"
   },
   "name": "Comedy"
+},
+{
+  "_id": {
+    "$oid": "669410ad8f3a8a34341ed739"
+  },
+  "name": "Cartoon",
+  "__v": 0
 }]
