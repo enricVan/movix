@@ -22,7 +22,7 @@ const createUser = asyncHandler(async (req, res) => {
 
   try {
     await newUser.save();
-    await Favorite.create({ user: newUser._id });
+    // await Favorite.create({ user: newUser._id });
     await History.create({ user: newUser._id });
     createToken(res, newUser._id);
 

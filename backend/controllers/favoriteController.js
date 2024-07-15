@@ -30,8 +30,14 @@ const addMovieToFavorites = asyncHandler(async (req, res) => {
     await favorite.save();
     res.json({ message: 'Add Movies to Favorites List successful', favorite });
   } else {
-    res.status(404);
-    throw new Error('Favorite not found');
+    const newFavorite = await Favorite.create({
+      user: userId,
+      movies: [movieId],
+    });
+    res.json({
+      message: 'Add Movies to Favorites List successful',
+      newFavorite,
+    });
   }
 });
 
@@ -40,13 +46,16 @@ const removeMovieFromFavorites = asyncHandler(async (req, res) => {
   const userId = req.user._id;
 
   const favorite = await Favorite.findOne({ user: userId });
-
   if (favorite) {
+    if (!favorite.movies.includes(movieId)) {
+      throw new Error('Cannot find this movie in favorite!');
+    }
     favorite.movies.pull(movieId);
     await favorite.save();
     res.json({
       message: 'Remove Movies from Favorites List successful',
       favorite,
+      removed_movie: movieId,
     });
   } else {
     res.status(404);
